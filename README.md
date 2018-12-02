@@ -9,6 +9,6 @@ To-do: <br />
   - so user is able to bookmark their calculations <br />
   - may also incorporate cookies <br />
 * Ability to choose amount of calculators <br />
-  - at the moment, set to 5 but can be easily set or X amount <br />
+  - currently set to only 5 but can be easily set to X amount <br />
 * Calculator disable when retrieving calculation via server <br />
   - spinner and prevent user from interacting with calculator when busy <br />
