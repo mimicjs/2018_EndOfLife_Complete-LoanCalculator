@@ -33,8 +33,8 @@ module.exports = {
     //},
     plugins: [
         new webpack.DefinePlugin({
-            //PROFILE_API: JSON.stringify('http://50.505.050.505:50505'),
-            PROFILE_API: JSON.stringify('http://localhost:5050')
+            LOAN_API: JSON.stringify('https://personalloancalculator.azurewebsites.net/api/loan'),
+            //LOAN_API: JSON.stringify('http://localhost:62077/api/loan')
         })
     ]
 }

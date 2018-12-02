@@ -33,7 +33,7 @@ export default class LoanCalculator extends React.Component {
         }];
         console.log(loanData);
         console.log(JSON.stringify(loanData));
-        fetch(`http://localhost:62077/api/loan/getLoanRepayments`, {
+        fetch(LOAN_API + `/getLoanRepayments`, {
             method: "POST",
             headers: {
                 Accept: "application/json",

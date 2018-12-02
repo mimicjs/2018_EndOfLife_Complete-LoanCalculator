@@ -57,7 +57,13 @@ namespace WebBasedLoanCalculator
 
             app.UseCors("AllowWebAppAccess");
 
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Loan}/{action=Index}/);"
+                );
+            });
         }
     }
 }
