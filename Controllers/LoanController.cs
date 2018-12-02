@@ -50,10 +50,5 @@ namespace WebBasedLoanCalculator.Controllers
                 return Json(new { Success = false, Message = "Internal Server Error" });
             }
         }
-
-        public ActionResult Index()
-        {
-            return View();
-        }
     }
 }
