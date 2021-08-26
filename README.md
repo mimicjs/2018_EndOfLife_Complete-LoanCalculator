@@ -1,8 +1,8 @@
 # Loan Calculator <br />
 Calculates loan repayments based on principal, term, interest <br />
 <br />
-Azure hosting: http://personalloancalculator.azurewebsites.net/ <br />
-Gitpages hosting: https://mimicjs.github.io/LoanCalculator/ <br />
+Azure hosting: *offline for now* <br />
+Gitpages hosting: https://mimicjs.github.io/2018_EndOfLife_Complete-LoanCalculator/ <br />
 <br />
 To-do: <br />
 * Query string update and usage <br />
